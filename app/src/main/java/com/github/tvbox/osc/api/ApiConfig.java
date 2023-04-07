@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://m3u-txt.gohkh9.eu.org/q.json");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://m3u-txt.gohkh9.eu.org/t.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
