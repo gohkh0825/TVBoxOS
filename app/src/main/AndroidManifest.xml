@@ -1,6 +1,6 @@
 <?xml version="2.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cmsv10.tvbox.osc">
+    package="cmsv.tvbox.osc">
 
     <uses-feature
         android:name="android.software.leanback"
